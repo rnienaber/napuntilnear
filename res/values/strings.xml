@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nap Until Near</string>
+    <string name="start_button">START</string>
+    <string name="stop_button">STOP</string>
+    <string name="nap_until_near">Nap until near:</string>
+    <string name="test_button">Test</string>
+    <string name="save_button">Save</string>
+    <string name="name_label">Name:</string>
+    <string name="select_location_button">Select location</string>
+    <string name="choose_destination">Choose destination:</string>
+    <string name="nap">Nap!</string>
+    <string name="add_destination">Add destination</string>
+    <string name="im_awake">I\'m Awake!!</string>
+    <string name="cancel">Cancel</string>
+</resources>

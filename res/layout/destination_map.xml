@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainlayout"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+            android:id="@+id/name_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"
+            android:width="80px"
+            android:textSize="18px"
+            android:text="@string/name_label"/>
+
+        <EditText
+            android:id="@+id/name_textfield"
+            android:layout_width="220px"
+            android:padding="10dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/name_label"/>
+
+    <com.google.android.maps.MapView
+        android:id="@+id/mapview"
+        android:layout_width="fill_parent"
+        android:layout_height="380px"
+        android:layout_below="@id/name_label"
+        android:clickable="true"
+        android:apiKey="0FlKhNNTH4KbEIf0628hXlaSARNMgq7r7Ssib2g"
+        android:padding="10dp"
+    />
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_below="@id/mapview"
+        android:padding="10dp"
+        android:textSize="18px"
+        android:text="@string/save_button"/>
+
+</RelativeLayout>

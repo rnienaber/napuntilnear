@@ -1,0 +1,20 @@
+<resources>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- Bluebird -->
+    <color name="blue">#305A66</color>
+    <color name="lightblue">#B6E0C8</color>
+    <color name="beige">#FFF2D2</color>
+    <color name="orange">#FF7B61</color>
+    <color name="darkorange">#E04232</color>
+
+    <!-- friends and foes -->
+    <color name="nearly_black">#2F2933</color>
+    <color name="dark_blue">#01A2A6</color>
+    <color name="light_blue">#29D9C2</color>
+    <color name="green">#BDF271</color>
+    <color name="pale">#FFFFA6</color>
+
+</resources>
